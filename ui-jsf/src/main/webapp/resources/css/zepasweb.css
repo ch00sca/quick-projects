@@ -1,0 +1,134 @@
+.centerFooterPanel { padding-left: 4px !important; padding-right: 4px !important; }
+.centerFooterSlogan { font-size: 1.231em; color: #6D6D6D; }
+.centerFooterTextSize { font-size: 0.846em; }
+.centerFooterTextColor { color: #898989; }
+
+/* Helvetia-Grid-System */
+table.h-span { border-spacing: 0px; }
+.h-span.ui-panelgrid td { border: none !important; padding: 0 0 0 0 !important; border: 1px solid black; }
+.h-span.ui-panelgrid td { height: 30px; }
+.h-span.ui-panelgrid tr.ui-widget-content { border: none !important; background: none !important; }
+.h-span.ui-panelgrid td.h-span-helper { height: 10px !important; }
+
+.h-span .h-span1 { width: 25px !important; }
+.h-span .h-span2 { width: 50px !important; }
+.h-span .h-span3 { width: 75px !important; }
+.h-span .h-span3.ui-inputfield { width: 65px !important; }
+.h-span .h-span4 { width: 100px !important; }
+.h-span .h-span5 { width: 125px !important; }
+.h-span .h-span5.ui-selectonemenu { width: 123px !important; }
+.h-span .h-span5.ui-inputfield { width: 115px !important; }
+.h-span .h-span6 { width: 150px !important; }
+.h-span .h-span7 { width: 175px !important; }
+.h-span .h-span7.ui-inputfield { width: 165px !important; }
+.h-span .h-span8 { width: 200px !important; }
+.h-span .h-span9 { width: 225px !important; }
+.h-span .h-span10 { width: 250px !important; }
+.h-span .h-span10.ui-selectonemenu { width: 224px !important; }
+.h-span .h-span10.ui-inputfield { width: 240px !important; }
+.h-span .h-span11 { width: 275px !important; }
+.h-span .h-span11.ui-selectonemenu { width: 249px !important; }
+.h-span .h-span11.ui-inputfield { width: 265px !important; }
+.h-span .h-span12 { width: 300px !important; }
+.h-span .h-span13 { width: 325px !important; }
+.h-span .h-span13.ui-inputfield { width: 315px !important; }
+.h-span .h-span14 { width: 350px !important; }
+.h-span .h-span15 { width: 375px !important; }
+.h-span .h-span16 { width: 400px !important; }
+.h-span .h-span17 { width: 425px !important; }
+.h-span .h-span17.ui-inputfield { width: 415px !important; }
+.h-span .h-span18 { width: 450px !important; }
+.h-span .h-span19 { width: 475px !important; }
+.h-span .h-span20 { width: 500px !important; }
+.h-span .h-span20.ui-selectonemenu { width: 498px !important; }
+.h-span .h-span20.ui-inputfield { width: 490px !important; }
+.h-span .h-span21 { width: 525px !important; }
+.h-span .h-span21.ui-selectonemenu { width: 499px !important; }
+.h-span .h-span21.ui-inputfield { width: 515px !important; }
+.h-span .h-span22 { width: 550px !important; }
+.h-span .h-span23 { width: 575px !important; }
+.h-span .h-span24 { width: 600px !important; }
+.h-span .h-span25 { width: 625px !important; }
+.h-span .h-span26 { width: 650px !important; }
+.h-span .h-span27 { width: 675px !important; }
+.h-span .h-span28 { width: 700px !important; }
+.h-span .h-span29 { width: 725px !important; }
+.h-span .h-span30 { width: 750px !important; }
+.h-span .h-span31 { width: 775px !important; }
+.h-span .h-span32 { width: 800px !important; }
+.h-span .h-span33 { width: 825px !important; }
+.h-span .h-span34 { width: 850px !important; }
+.h-span .h-span35 { width: 875px !important; }
+.h-span .h-span36 { width: 900px !important; }
+.h-span .h-span37 { width: 925px !important; }
+.h-span .h-span38 { width: 950px !important; }
+.h-span .h-span39 { width: 975px !important; }
+.h-span .h-span40 { width: 1000px !important; }
+
+.h-span .h-right { text-align: right; }
+
+.tableCellWrapText td {
+	white-space: normal !important;
+}
+
+/* /Helvetia-Grid-System */
+
+.ui-datepicker-calendar a.ui-state-highlight { background: none !important; }
+.ui-datepicker-calendar a.ui-state-active { background: #898989 !important; font-weight: bolder; }
+
+.column-width-1 { width: 200px; }
+.column-width-2 { width: 470px; }
+.column-width-3 { width: 360px; }
+.column-width-4 { width: 80px; }
+.column-width-5 { width: 170px; }
+.column-width-6 { width: 104px; }
+
+.attribut_in_search { background-color: #99ddd9 !important; }
+.attribut_in_search input { background-color: #99ddd9 !important; }
+.attribut_in_search label { background-color: #99ddd9 !important; }
+.attribut_zweideutig { background-color: #F6CECE !important; }
+
+.active { background-color: #99ddd9; }
+.noBorder.ui-widget-content { border: none !important; }
+
+.table-button.ui-panelgrid td { padding: 0px 0px !important; border: none !important; width: 30px; height: 30px; }
+.table-button.ui-panelgrid tr.ui-widget-content { border: none !important; background: inherit; }
+.table-button { width: auto !important; }
+
+.breadCrumb-last li:last-child a { text-decoration: none; cursor: default; }
+.ui-breadcrumb a:link { color: blue;}
+.ui-breadcrumb a:visited { color: blue;}
+.ui-breadcrumb a:hover { color: white; background-color: #6D6D6D;}
+
+.h-ui-laufnummer { background: none !important; border: 0px !important; }
+.h-ui-druckadresse th { display: none; }
+.h-ui-datalist-info .ui-datalist-content { padding-right: 1.5em; border: none !important; }
+
+.h-ui-text-logo { font-size: 28px !important; text-decoration: none; text-underline: none; font-weight: bolder; }
+
+.h-ui-selectbooleancheckbox-text-right .ui-chkbox-label { float: right !important; }
+
+.h-panel-width { width: 1000px; }
+
+.ui-design.ui-panelgrid td { border: none !important; padding: 3px 3px 3px 0 !important; }
+.ui-design.ui-panelgrid tr.ui-widget-content { border: none !important; background: none !important; }
+
+.ui-separator { border: none !important; }
+
+.h-seitennavigation.ui-menu { width: 228px !important; }
+.ui-menuitem-icon { padding-right: 5px; }
+
+input[readonly=readonly] { background-color: #f8f7f8 !important; }
+.ui-selectonemenu.ui-state-disabled { background-color: #f8f7f8 !important; opacity: 1 !important; }
+textarea[readonly=readonly] { background-color: #f8f7f8 !important; }
+
+.h-ui-datatable-zebra .ui-datatable-odd { background: none repeat scroll 0 0 #FFFFFF; }
+.h-ui-panelgrid-zebra tr:nth-child(even) { background: none repeat scroll 0 0 #FFFFFF; }
+
+.ui-button { margin: 0 !important; }
+.h-margin-right { margin-right: 3px !important; }
+.ui-message-info { margin: 0 !important; }
+
+#contentPersonMessageInfoId { max-width: 1006px; }
+
+.img-disabled { opacity: 0.4 !important; }

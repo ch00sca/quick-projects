@@ -1,0 +1,10 @@
+*~
+target/
+temp/
+
+*.iml
+
+## Directory-based project format:
+.idea/*
+!.idea/runConfigurations
+

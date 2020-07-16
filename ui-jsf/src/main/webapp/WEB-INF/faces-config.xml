@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<faces-config xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd"
+              version="2.2">
+    <name>zepasweb</name>
+    <application>
+        <locale-config>
+            <default-locale>de_CH</default-locale>
+            <supported-locale>de_CH</supported-locale>
+            <supported-locale>fr_CH</supported-locale>
+            <supported-locale>it_CH</supported-locale>
+            <supported-locale>en_CH</supported-locale>
+        </locale-config>
+        <el-resolver>
+            org.primefaces.application.exceptionhandler.PrimeExceptionHandlerELResolver
+        </el-resolver>
+    </application>
+    <factory>
+        <exception-handler-factory>
+            org.primefaces.application.exceptionhandler.PrimeExceptionHandlerFactory
+        </exception-handler-factory>
+    </factory>
+    <lifecycle>
+        <phase-listener>ch.helvetia.zepasweb.ui.helper.UACompatibleHeaderPhaseListener</phase-listener>
+    </lifecycle>
+</faces-config>

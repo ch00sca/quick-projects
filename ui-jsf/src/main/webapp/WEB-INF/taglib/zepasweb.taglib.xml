@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facelet-taglib version="2.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facelettaglibrary_2_0.xsd">
+	<namespace>http://www.helvetia.ch/zepasweb/taglib</namespace>
+	<function>
+		<function-name>substring</function-name>
+		<function-class>ch.helvetia.zepasweb.ui.tagfunctions.TaglibUtil</function-class>
+		<function-signature>java.lang.String substring(java.lang.String,int,int)</function-signature>
+	</function>
+	<function>
+		<function-name>locale</function-name>
+		<function-class>ch.helvetia.zepasweb.ui.tagfunctions.TaglibUtil</function-class>
+		<function-signature>java.util.Locale locale()</function-signature>
+	</function>
+	<function>
+		<function-name>localeString</function-name>
+		<function-class>ch.helvetia.zepasweb.ui.tagfunctions.TaglibUtil</function-class>
+		<function-signature>java.lang.String localeString()</function-signature>
+	</function>
+    <function>
+        <function-name>append</function-name>
+        <function-class>ch.helvetia.zepasweb.ui.tagfunctions.TaglibUtil</function-class>
+        <function-signature>java.lang.String append(java.lang.String, java.lang.String)</function-signature>
+    </function>
+</facelet-taglib>
